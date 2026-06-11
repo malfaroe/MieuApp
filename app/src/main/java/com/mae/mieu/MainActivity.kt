@@ -192,7 +192,9 @@ private fun loadAphorisms(ctx: Context): AphorismsData {
         val obj = JSONObject(json)
         val arr = obj.getJSONArray("aphorisms")
         val total = obj.getInt("count")
-        val list = List(arr.length()) { i -> arr.getString(i) }.filter { it.isNotEmpty() }
+        val list = List(arr.length()) { i ->
+            arr.getString(i).replace(Regex("^\\d+\\.\\s*"), "")
+        }.filter { it.isNotEmpty() }
         AphorismsData(list, total)
     } catch (e: Exception) {
         Log.w("MieuApp", "Failed to load void_aphorisms.json: ${e.message}")

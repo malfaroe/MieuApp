@@ -5,44 +5,39 @@
     android:viewportWidth="108"
     android:viewportHeight="108">
 
-    <!-- Cabeza (círculo central) -->
+    <!-- Cabeza — gato negro -->
     <path
-        android:fillColor="#FFFFFF"
-        android:pathData="M54,28 C38,28 25,41 25,57 C25,73 38,86 54,86 C70,86 83,73 83,57 C83,41 70,28 54,28Z"/>
+        android:fillColor="#FF000000"
+        android:pathData="M54,30 C37,30 24,43 24,60 C24,77 37,90 54,90 C71,90 84,77 84,60 C84,43 71,30 54,30Z"/>
 
-    <!-- Oreja izquierda -->
+    <!-- Oreja izquierda — gato negro -->
     <path
-        android:fillColor="#FFFFFF"
-        android:pathData="M32,48 L24,24 L46,38Z"/>
+        android:fillColor="#FF000000"
+        android:pathData="M30,52 L20,22 L48,40Z"/>
 
-    <!-- Oreja derecha -->
+    <!-- Oreja derecha — gato negro -->
     <path
-        android:fillColor="#FFFFFF"
-        android:pathData="M76,48 L84,24 L62,38Z"/>
+        android:fillColor="#FF000000"
+        android:pathData="M78,52 L88,22 L60,40Z"/>
 
-    <!-- Ojo izquierdo (centro x=42) -->
+    <!-- Ojo izquierdo — ámbar (el void te mira) -->
     <path
         android:fillColor="#FFAB40"
-        android:pathData="M36,55 C36,50.58 39.58,47 44,47 C48.42,47 52,50.58 52,55 C52,59.42 48.42,63 44,63 C39.58,63 36,59.42 36,55Z"/>
+        android:pathData="M36,58 C36,53 40,49 45,49 C50,49 54,53 54,58 C54,63 50,67 45,67 C40,67 36,63 36,58Z"/>
 
     <!-- Pupila izquierda -->
     <path
-        android:fillColor="#000000"
-        android:pathData="M41,55 C41,52.79 42.79,51 45,51 C47.21,51 49,52.79 49,55 C49,57.21 47.21,59 45,59 C42.79,59 41,57.21 41,55Z"/>
+        android:fillColor="#FF000000"
+        android:pathData="M42,58 C42,55.24 44.24,53 47,53 C49.76,53 52,55.24 52,58 C52,60.76 49.76,63 47,63 C44.24,63 42,60.76 42,58Z"/>
 
-    <!-- Ojo derecho (centro x=66) -->
+    <!-- Ojo derecho — ámbar -->
     <path
         android:fillColor="#FFAB40"
-        android:pathData="M56,55 C56,50.58 59.58,47 64,47 C68.42,47 72,50.58 72,55 C72,59.42 68.42,63 64,63 C59.58,63 56,59.42 56,55Z"/>
+        android:pathData="M54,58 C54,53 58,49 63,49 C68,49 72,53 72,58 C72,63 68,67 63,67 C58,67 54,63 54,58Z"/>
 
     <!-- Pupila derecha -->
     <path
-        android:fillColor="#000000"
-        android:pathData="M61,55 C61,52.79 62.79,51 65,51 C67.21,51 69,52.79 69,55 C69,57.21 67.21,59 65,59 C62.79,59 61,57.21 61,55Z"/>
-
-    <!-- Nariz (pequeño triángulo) -->
-    <path
-        android:fillColor="#FFAB40"
-        android:pathData="M54,68 L50,72 L58,72Z"/>
+        android:fillColor="#FF000000"
+        android:pathData="M56,58 C56,55.24 58.24,53 61,53 C63.76,53 66,55.24 66,58 C66,60.76 63.76,63 61,63 C58.24,63 56,60.76 56,58Z"/>
 
 </vector>
