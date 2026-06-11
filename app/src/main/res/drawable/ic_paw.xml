@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="utf-8"?>
+<vector xmlns:android="http://schemas.android.com/apk/res/android"
+    android:width="100dp"
+    android:height="100dp"
+    android:viewportWidth="100"
+    android:viewportHeight="100">
+
+    <!-- Almohadilla central -->
+    <path
+        android:fillColor="#FFE87090"
+        android:pathData="M70,72 A20,17 0 1,0 30,72 A20,17 0 1,0 70,72Z"/>
+
+    <!-- Dedo izquierda extrema -->
+    <group
+        android:pivotX="20"
+        android:pivotY="46"
+        android:rotation="-20">
+        <path
+            android:fillColor="#FFE87090"
+            android:pathData="M29,46 A9,11 0 1,0 11,46 A9,11 0 1,0 29,46Z"/>
+    </group>
+
+    <!-- Dedo izquierda centro -->
+    <group
+        android:pivotX="37"
+        android:pivotY="34"
+        android:rotation="-7">
+        <path
+            android:fillColor="#FFE87090"
+            android:pathData="M46,34 A9,11 0 1,0 28,34 A9,11 0 1,0 46,34Z"/>
+    </group>
+
+    <!-- Dedo derecha centro -->
+    <group
+        android:pivotX="57"
+        android:pivotY="34"
+        android:rotation="7">
+        <path
+            android:fillColor="#FFE87090"
+            android:pathData="M66,34 A9,11 0 1,0 48,34 A9,11 0 1,0 66,34Z"/>
+    </group>
+
+    <!-- Dedo derecha extrema -->
+    <group
+        android:pivotX="74"
+        android:pivotY="46"
+        android:rotation="20">
+        <path
+            android:fillColor="#FFE87090"
+            android:pathData="M83,46 A9,11 0 1,0 65,46 A9,11 0 1,0 83,46Z"/>
+    </group>
+
+</vector>
