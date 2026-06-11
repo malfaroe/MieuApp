@@ -193,7 +193,9 @@ private fun loadAphorisms(ctx: Context): AphorismsData {
         val arr = obj.getJSONArray("aphorisms")
         val total = obj.getInt("count")
         val list = List(arr.length()) { i ->
-            arr.getString(i).replace(Regex("^\\d+\\.\\s*"), "")
+            arr.getString(i)
+                .replace(Regex("^\\d+\\.\\s*"), "")
+                .replace(Regex("^(Sarcastic|Tender|Perk|Benefit)[^:]*:\\s*"), "")
         }.filter { it.isNotEmpty() }
         AphorismsData(list, total)
     } catch (e: Exception) {

@@ -5,39 +5,69 @@
     android:viewportWidth="108"
     android:viewportHeight="108">
 
-    <!-- Cabeza — gato negro -->
+    <!-- Fondo circular rosa -->
+    <path
+        android:fillColor="#FFB72060"
+        android:pathData="M4,54 A50,50 0 1,0 104,54 A50,50 0 1,0 4,54Z"/>
+
+    <!-- Oreja izquierda -->
     <path
         android:fillColor="#FF000000"
-        android:pathData="M54,30 C37,30 24,43 24,60 C24,77 37,90 54,90 C71,90 84,77 84,60 C84,43 71,30 54,30Z"/>
+        android:pathData="M26,52 L17,14 L47,38Z"/>
 
-    <!-- Oreja izquierda — gato negro -->
+    <!-- Oreja derecha -->
     <path
         android:fillColor="#FF000000"
-        android:pathData="M30,52 L20,22 L48,40Z"/>
+        android:pathData="M82,52 L91,14 L61,38Z"/>
 
-    <!-- Oreja derecha — gato negro -->
+    <!-- Interior oreja izquierda -->
+    <path
+        android:fillColor="#FF808080"
+        android:pathData="M29,49 L21,19 L42,37Z"/>
+
+    <!-- Interior oreja derecha -->
+    <path
+        android:fillColor="#FF808080"
+        android:pathData="M66,37 L87,19 L79,49Z"/>
+
+    <!-- Cabeza -->
     <path
         android:fillColor="#FF000000"
-        android:pathData="M78,52 L88,22 L60,40Z"/>
+        android:pathData="M54,39 C37.4,39 24,51 24,65 C24,79 37.4,91 54,91 C70.6,91 84,79 84,65 C84,51 70.6,39 54,39Z"/>
 
-    <!-- Ojo izquierdo — ámbar (el void te mira) -->
+    <!-- Ojo izquierdo — almendra verde -->
     <path
-        android:fillColor="#FFAB40"
-        android:pathData="M36,58 C36,53 40,49 45,49 C50,49 54,53 54,58 C54,63 50,67 45,67 C40,67 36,63 36,58Z"/>
+        android:fillColor="#FF78E855"
+        android:pathData="M30,64 C33,57 46,57 49,64 C46,71 33,71 30,64Z"/>
 
-    <!-- Pupila izquierda -->
-    <path
-        android:fillColor="#FF000000"
-        android:pathData="M42,58 C42,55.24 44.24,53 47,53 C49.76,53 52,55.24 52,58 C52,60.76 49.76,63 47,63 C44.24,63 42,60.76 42,58Z"/>
-
-    <!-- Ojo derecho — ámbar -->
-    <path
-        android:fillColor="#FFAB40"
-        android:pathData="M54,58 C54,53 58,49 63,49 C68,49 72,53 72,58 C72,63 68,67 63,67 C58,67 54,63 54,58Z"/>
-
-    <!-- Pupila derecha -->
+    <!-- Pupila izquierda — ranura vertical -->
     <path
         android:fillColor="#FF000000"
-        android:pathData="M56,58 C56,55.24 58.24,53 61,53 C63.76,53 66,55.24 66,58 C66,60.76 63.76,63 61,63 C58.24,63 56,60.76 56,58Z"/>
+        android:pathData="M37.2,64 A2.3,4.5 0 1,0 41.8,64 A2.3,4.5 0 1,0 37.2,64Z"/>
+
+    <!-- Brillo ojo izquierdo -->
+    <path
+        android:fillColor="#AAFFFFFF"
+        android:pathData="M34.9,60.5 A1.6,1 0 1,0 38.1,60.5 A1.6,1 0 1,0 34.9,60.5Z"/>
+
+    <!-- Ojo derecho — almendra verde -->
+    <path
+        android:fillColor="#FF78E855"
+        android:pathData="M59,64 C62,57 75,57 78,64 C75,71 62,71 59,64Z"/>
+
+    <!-- Pupila derecha — ranura vertical -->
+    <path
+        android:fillColor="#FF000000"
+        android:pathData="M66.2,64 A2.3,4.5 0 1,0 70.8,64 A2.3,4.5 0 1,0 66.2,64Z"/>
+
+    <!-- Brillo ojo derecho -->
+    <path
+        android:fillColor="#AAFFFFFF"
+        android:pathData="M63.9,60.5 A1.6,1 0 1,0 67.1,60.5 A1.6,1 0 1,0 63.9,60.5Z"/>
+
+    <!-- Nariz -->
+    <path
+        android:fillColor="#FFE07090"
+        android:pathData="M51,74 L54,78 L57,74Z"/>
 
 </vector>
